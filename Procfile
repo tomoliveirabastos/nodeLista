@@ -1,2 +1,2 @@
 release: npx knex migrate:latest --knexfile Config.js
-web: npm start
+web: node server.js
