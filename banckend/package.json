@@ -1,0 +1,20 @@
+{
+  "name": "nodeLista",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx nodemon server.js",
+    "runMigration": "npx knex migrate:latest --knexfile Config/Config.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "extends-classes": "^1.0.5",
+    "knex": "^0.21.6",
+    "knex-migrate": "^1.7.4",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0",
+    "sucrase": "^3.15.0"
+  }
+}
