@@ -4,6 +4,10 @@ import ListaService from '../Service/ListaService';
 const ListaController = express.Router();
 const listaService = new ListaService();
 
+ListaController.get("/teste", (req, res) => {
+    return res.send('ok');
+});
+
 ListaController.post('/lista', async(req, res)=>{
     const id = await listaService.registra_lista(req.body);
     return res.json({
