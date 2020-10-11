@@ -1,9 +1,7 @@
-import express from 'express';
-
-import ItemController from './Controller/ItemController';
-import ListaController from './Controller/ListaController';
-import SubitemController from './Controller/SubitemController';
-
+const express = require('express');
+const ItemController = require('./Controller/ItemController');
+const ListaController = require('./Controller/ListaController');
+const SubitemController = require('./Controller/SubitemController');
 
 const app = express();
 

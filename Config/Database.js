@@ -1,4 +1,4 @@
-import knex from 'knex';
-import Config from '../Config';
+const knex = require('knex');
+const Config = require('./../Config');
 
 module.exports = knex(Config);

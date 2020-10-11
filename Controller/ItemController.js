@@ -1,5 +1,5 @@
-import express from 'express';
-import ItemService from '../Service/ItemService';
+const express = require('express');
+const ItemService = require('./../Service/ItemService');
 
 const ItemController = express.Router();
 const itemService = new ItemService();

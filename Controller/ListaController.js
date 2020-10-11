@@ -1,5 +1,5 @@
-import express from 'express';
-import ListaService from '../Service/ListaService';
+const express = require('express');
+const ListaService = require('./../Service/ListaService');
 
 const ListaController = express.Router();
 const listaService = new ListaService();

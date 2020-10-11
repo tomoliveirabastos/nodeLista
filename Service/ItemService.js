@@ -1,4 +1,4 @@
-import Database from '../Config/Database';
+const Database = require('./../Config/Database');
 
 class ItemService{
     constructor(){}
